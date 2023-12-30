@@ -1,0 +1,14 @@
+[package]
+name = "adbridger"
+version = "0.1.0"
+edition = "2021"
+authors = ["Laarabi Suleyman"]
+license = "GPL-3.0"
+license-file = "./license.txt"
+
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
